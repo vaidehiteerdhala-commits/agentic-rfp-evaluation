@@ -1,0 +1,580 @@
+{
+  "rfp_run_id": "086627a2-1924-44a9-92a7-8edc25351256",
+  "created_at": "2026-09-30T08:42:58.960154+00:00",
+  "status": "COMPLETED",
+  "tie_break_order": [
+    "PPI descending",
+    "submission date ascending",
+    "experience rating descending",
+    "supplier name ascending"
+  ],
+  "audit_trail": [
+    {
+      "supplier": "Apex Systems",
+      "step": "PDF_EXTRACTION",
+      "status": "COMPLETED",
+      "pages": 2,
+      "characters": 1639
+    },
+    {
+      "supplier": "Apex Systems",
+      "step": "LLM_EVALUATION",
+      "status": "COMPLETED"
+    },
+    {
+      "supplier": "Apex Systems",
+      "step": "VALIDATION",
+      "status": "COMPLETED",
+      "warnings": []
+    },
+    {
+      "supplier": "BrightPath Tech",
+      "step": "PDF_EXTRACTION",
+      "status": "COMPLETED",
+      "pages": 2,
+      "characters": 1597
+    },
+    {
+      "supplier": "BrightPath Tech",
+      "step": "LLM_EVALUATION",
+      "status": "COMPLETED"
+    },
+    {
+      "supplier": "BrightPath Tech",
+      "step": "VALIDATION",
+      "status": "COMPLETED",
+      "warnings": []
+    },
+    {
+      "supplier": "NexaWorks",
+      "step": "PDF_EXTRACTION",
+      "status": "COMPLETED",
+      "pages": 2,
+      "characters": 1550
+    },
+    {
+      "supplier": "NexaWorks",
+      "step": "LLM_EVALUATION",
+      "status": "COMPLETED"
+    },
+    {
+      "supplier": "NexaWorks",
+      "step": "VALIDATION",
+      "status": "COMPLETED",
+      "warnings": []
+    },
+    {
+      "supplier": "Orbit Digital",
+      "step": "PDF_EXTRACTION",
+      "status": "COMPLETED",
+      "pages": 2,
+      "characters": 1485
+    },
+    {
+      "supplier": "Orbit Digital",
+      "step": "LLM_EVALUATION",
+      "status": "COMPLETED"
+    },
+    {
+      "supplier": "Orbit Digital",
+      "step": "VALIDATION",
+      "status": "COMPLETED",
+      "warnings": []
+    }
+  ],
+  "suppliers": [
+    {
+      "supplier_name": "NexaWorks",
+      "submission_date": "2026-09-19",
+      "experience_rating": 8.5,
+      "document_pages": 2,
+      "evaluation": {
+        "supplier_name": "NexaWorks",
+        "criteria": [
+          {
+            "criterion_id": 1,
+            "score": 8.0,
+            "max_score": 10.0,
+            "justification": "NexaWorks proposes a composable architecture with integration adapters, autoscaling capability, observability, and documented non-functional requirements.",
+            "evidence": "[PAGE 2] Composable architecture, integration adapters, autoscaling, observability and documented non-functional requirements."
+          },
+          {
+            "criterion_id": 2,
+            "score": 9.0,
+            "max_score": 10.0,
+            "justification": "The proposal presents a well-structured sixteen-week plan covering milestone gates, RACI, staffing ramp, acceptance criteria, migration rehearsal, rollback plan, and a risk register.",
+            "evidence": "[PAGE 2] Sixteen-week plan with milestone gates, RACI, staffing ramp, acceptance criteria, migration rehearsal, rollback plan and a detailed risk register."
+          },
+          {
+            "criterion_id": 3,
+            "score": 8.0,
+            "max_score": 10.0,
+            "justification": "Clear pricing provided with a fixed implementation price of INR 1.12 crore and annual support of INR 18 lakh, subject to assumptions, milestone payments, 90-day validity, and excluded taxes.",
+            "evidence": "[PAGE 2] Fixed implementation price INR 1.12 crore and annual support INR 18 lakh, with assumptions and payment milestones. Taxes Excluded and charged as applicable Proposal validity 90 days"
+          },
+          {
+            "criterion_id": 4,
+            "score": 8.5,
+            "max_score": 10.0,
+            "justification": "Security model includes ISO-aligned controls, encryption, SSO, least privilege access, audit logging, vulnerability management, and privacy impact review.",
+            "evidence": "[PAGE 2] ISO-aligned controls, encryption, SSO, least privilege, audit logging, vulnerability management and a privacy impact review."
+          },
+          {
+            "criterion_id": 5,
+            "score": 8.5,
+            "max_score": 10.0,
+            "justification": "Includes 24x7 support, a severity matrix, named service manager, quarterly reviews, six comparable projects, and three references.",
+            "evidence": "[PAGE 2] 24x7 support, severity matrix, named service manager, quarterly reviews, six comparable fictional projects and three fictional references."
+          }
+        ],
+        "risks": [
+          "Delivery is dependent on timely stakeholder access, availability of environments, and interface documentation.",
+          "Scope adjustments require formal change control management.",
+          "Taxes are excluded from the fixed implementation and support pricing and will be charged as applicable."
+        ],
+        "overall_summary": "NexaWorks delivers a well-rounded proposal with particular strengths in its 16-week implementation plan and continuous 24x7 support model. Pricing is transparent with fixed costs, backed by ISO-aligned security controls and composable technical architecture."
+      },
+      "warnings": [],
+      "absolute_score": 83.5,
+      "ppi": 93.82,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "NexaWorks proposes a composable architecture with integration adapters, autoscaling capability, observability, and documented non-functional requirements.",
+          "evidence": "[PAGE 2] Composable architecture, integration adapters, autoscaling, observability and documented non-functional requirements.",
+          "criterion_name": "Technical Capability",
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_percent": 88.88888888888889,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 2,
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "The proposal presents a well-structured sixteen-week plan covering milestone gates, RACI, staffing ramp, acceptance criteria, migration rehearsal, rollback plan, and a risk register.",
+          "evidence": "[PAGE 2] Sixteen-week plan with milestone gates, RACI, staffing ramp, acceptance criteria, migration rehearsal, rollback plan and a detailed risk register.",
+          "criterion_name": "Implementation Plan",
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_percent": 100.0,
+          "is_benchmark_leader": true
+        },
+        {
+          "criterion_id": 3,
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "Clear pricing provided with a fixed implementation price of INR 1.12 crore and annual support of INR 18 lakh, subject to assumptions, milestone payments, 90-day validity, and excluded taxes.",
+          "evidence": "[PAGE 2] Fixed implementation price INR 1.12 crore and annual support INR 18 lakh, with assumptions and payment milestones. Taxes Excluded and charged as applicable Proposal validity 90 days",
+          "criterion_name": "Commercial Value",
+          "weight": 20.0,
+          "benchmark": 8.5,
+          "gap": -0.5,
+          "relative_percent": 94.11764705882352,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 4,
+          "score": 8.5,
+          "max_score": 10.0,
+          "justification": "Security model includes ISO-aligned controls, encryption, SSO, least privilege access, audit logging, vulnerability management, and privacy impact review.",
+          "evidence": "[PAGE 2] ISO-aligned controls, encryption, SSO, least privilege, audit logging, vulnerability management and a privacy impact review.",
+          "criterion_name": "Security & Compliance",
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -0.5,
+          "relative_percent": 94.44444444444444,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 5,
+          "score": 8.5,
+          "max_score": 10.0,
+          "justification": "Includes 24x7 support, a severity matrix, named service manager, quarterly reviews, six comparable projects, and three references.",
+          "evidence": "[PAGE 2] 24x7 support, severity matrix, named service manager, quarterly reviews, six comparable fictional projects and three fictional references.",
+          "criterion_name": "Support & Experience",
+          "weight": 10.0,
+          "benchmark": 9.0,
+          "gap": -0.5,
+          "relative_percent": 94.44444444444444,
+          "is_benchmark_leader": false
+        }
+      ],
+      "final_rank": 1
+    },
+    {
+      "supplier_name": "Apex Systems",
+      "submission_date": "2026-09-20",
+      "experience_rating": 8.0,
+      "document_pages": 2,
+      "evaluation": {
+        "supplier_name": "Apex Systems",
+        "criteria": [
+          {
+            "criterion_id": 1,
+            "score": 9.0,
+            "max_score": 10.0,
+            "justification": "Apex Systems proposes a comprehensive technical solution featuring cloud-native modular architecture, REST APIs, event integrations, horizontal scaling, disaster recovery, and monitoring.",
+            "evidence": "[PAGE 2] \"Cloud-native modular architecture with REST APIs, event integration, explicit interface mappings, horizontal scaling, monitoring, disaster recovery and load targets.\""
+          },
+          {
+            "criterion_id": 2,
+            "score": 8.5,
+            "max_score": 10.0,
+            "justification": "The proposal outlines a structured 20-week delivery timeline across phases with clearly defined team roles (delivery lead, architect, six engineers) and weekly risk reviews.",
+            "evidence": "[PAGE 2] \"Twenty-week delivery through discovery, design, build, integration testing, migration rehearsal and go-live. A delivery lead, architect and six engineers are assigned. Risks are reviewed weekly.\""
+          },
+          {
+            "criterion_id": 3,
+            "score": 6.5,
+            "max_score": 10.0,
+            "justification": "Pricing is clearly detailed as fixed implementation plus annual support, but is noted as higher priced and excludes travel, third-party licenses, and applicable taxes.",
+            "evidence": "[PAGE 2] \"Fixed implementation price INR 1.48 crore plus annual support of INR 22 lakh. Travel and third-party licences are excluded.\" and \"Taxes: Excluded and charged as applicable\""
+          },
+          {
+            "criterion_id": 4,
+            "score": 9.0,
+            "max_score": 10.0,
+            "justification": "Strong security posture backed by ISO 27001 controls, encryption standards, access controls (SSO, RBAC), audit logging, annual penetration testing, and local hosting.",
+            "evidence": "[PAGE 2] \"ISO 27001 controls, encryption in transit and at rest, SSO, RBAC, audit logs, annual penetration tests and India-region hosting.\""
+          },
+          {
+            "criterion_id": 5,
+            "score": 8.0,
+            "max_score": 10.0,
+            "justification": "Defines a solid support model with 24x7 P1 support and a 4-hour restoration target, backed by references and similar implementations.",
+            "evidence": "[PAGE 2] \"24x7 P1 support, four-hour restoration target, five similar fictional implementations and two fictional references.\""
+          }
+        ],
+        "risks": [
+          "Commercial exclusions: Taxes, travel, and third-party licenses are excluded from the fixed implementation price.",
+          "Delivery dependencies: Timely delivery relies heavily on external factors including stakeholder access, environment availability, and interface documentation."
+        ],
+        "overall_summary": "Apex Systems presents a technically robust proposal with strong cloud architecture, robust security and compliance controls (ISO 27001, encryption, local hosting), and a structured 20-week implementation plan. Primary considerations include higher overall cost with key exclusions (taxes, travel, third-party licenses) and external project dependencies on stakeholder access and documentation."
+      },
+      "warnings": [],
+      "absolute_score": 83.0,
+      "ppi": 93.07,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "Apex Systems proposes a comprehensive technical solution featuring cloud-native modular architecture, REST APIs, event integrations, horizontal scaling, disaster recovery, and monitoring.",
+          "evidence": "[PAGE 2] \"Cloud-native modular architecture with REST APIs, event integration, explicit interface mappings, horizontal scaling, monitoring, disaster recovery and load targets.\"",
+          "criterion_name": "Technical Capability",
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_percent": 100.0,
+          "is_benchmark_leader": true
+        },
+        {
+          "criterion_id": 2,
+          "score": 8.5,
+          "max_score": 10.0,
+          "justification": "The proposal outlines a structured 20-week delivery timeline across phases with clearly defined team roles (delivery lead, architect, six engineers) and weekly risk reviews.",
+          "evidence": "[PAGE 2] \"Twenty-week delivery through discovery, design, build, integration testing, migration rehearsal and go-live. A delivery lead, architect and six engineers are assigned. Risks are reviewed weekly.\"",
+          "criterion_name": "Implementation Plan",
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -0.5,
+          "relative_percent": 94.44444444444444,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 3,
+          "score": 6.5,
+          "max_score": 10.0,
+          "justification": "Pricing is clearly detailed as fixed implementation plus annual support, but is noted as higher priced and excludes travel, third-party licenses, and applicable taxes.",
+          "evidence": "[PAGE 2] \"Fixed implementation price INR 1.48 crore plus annual support of INR 22 lakh. Travel and third-party licences are excluded.\" and \"Taxes: Excluded and charged as applicable\"",
+          "criterion_name": "Commercial Value",
+          "weight": 20.0,
+          "benchmark": 8.5,
+          "gap": -2.0,
+          "relative_percent": 76.47058823529412,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 4,
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "Strong security posture backed by ISO 27001 controls, encryption standards, access controls (SSO, RBAC), audit logging, annual penetration testing, and local hosting.",
+          "evidence": "[PAGE 2] \"ISO 27001 controls, encryption in transit and at rest, SSO, RBAC, audit logs, annual penetration tests and India-region hosting.\"",
+          "criterion_name": "Security & Compliance",
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_percent": 100.0,
+          "is_benchmark_leader": true
+        },
+        {
+          "criterion_id": 5,
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "Defines a solid support model with 24x7 P1 support and a 4-hour restoration target, backed by references and similar implementations.",
+          "evidence": "[PAGE 2] \"24x7 P1 support, four-hour restoration target, five similar fictional implementations and two fictional references.\"",
+          "criterion_name": "Support & Experience",
+          "weight": 10.0,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_percent": 88.88888888888889,
+          "is_benchmark_leader": false
+        }
+      ],
+      "final_rank": 2
+    },
+    {
+      "supplier_name": "Orbit Digital",
+      "submission_date": "2026-09-17",
+      "experience_rating": 9.5,
+      "document_pages": 2,
+      "evaluation": {
+        "supplier_name": "Orbit Digital",
+        "criteria": [
+          {
+            "criterion_id": 1,
+            "score": 5.0,
+            "max_score": 10.0,
+            "justification": "Orbit Digital offers a proven digital platform and scalable cloud deployment, but its technical integration plan remains vague and lacks specific interface mappings.",
+            "evidence": "[PAGE 2] \"Proven digital platform and scalable cloud deployment. The integration approach remains high level and lacks interface mappings.\""
+          },
+          {
+            "criterion_id": 2,
+            "score": 5.5,
+            "max_score": 10.0,
+            "justification": "The proposal includes an eighteen-week timeline with milestones and a senior team, but provides limited details on migration and risk mitigation activities.",
+            "evidence": "[PAGE 2] \"Eighteen-week plan with milestones and a senior team. Migration and risk activities have limited detail.\""
+          },
+          {
+            "criterion_id": 3,
+            "score": 6.5,
+            "max_score": 10.0,
+            "justification": "Pricing structure is defined with implementation at INR 1.05 crore and annual support at INR 20 lakh, valid for 90 days, though taxes are excluded and major exclusions apply.",
+            "evidence": "[PAGE 2] \"Implementation price INR 1.05 crore plus INR 20 lakh annual support. Major exclusions are listed.\" and \"Taxes: Excluded and charged as applicable\""
+          },
+          {
+            "criterion_id": 4,
+            "score": 6.0,
+            "max_score": 10.0,
+            "justification": "Core security features such as encryption, SSO, audit logs, backup, and vulnerability scans are described, but certification evidence is explicitly marked as partial.",
+            "evidence": "[PAGE 2] \"Encryption, SSO, audit logs, backup and vulnerability scans are described. Certification evidence is partial.\""
+          },
+          {
+            "criterion_id": 5,
+            "score": 9.0,
+            "max_score": 10.0,
+            "justification": "Demonstrates strong operational support and extensive relevant experience, featuring a 24x7 service desk, strong escalation process, ten similar projects, and four detailed references.",
+            "evidence": "[PAGE 2] \"24x7 service desk, strong escalation process, ten similar fictional projects and four detailed fictional references.\""
+          }
+        ],
+        "risks": [
+          "High-level integration approach lacking interface mappings could delay system interoperability.",
+          "Limited detail in migration and risk management plans.",
+          "Certification evidence is partial, creating potential compliance gaps.",
+          "Delivery timeline depends heavily on timely buyer stakeholder access, environments, and interface documentation."
+        ],
+        "overall_summary": "Orbit Digital demonstrates strong support infrastructure and relevant experience supported by 10 projects, 4 references, and a 24x7 service desk. Commercial costs are clearly stated at INR 1.05 crore implementation plus INR 20 lakh annual support. However, the proposal exhibits key weaknesses in technical integration planning, limited migration and risk details, and partial compliance certification evidence."
+      },
+      "warnings": [],
+      "absolute_score": 60.0,
+      "ppi": 67.52,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "score": 5.0,
+          "max_score": 10.0,
+          "justification": "Orbit Digital offers a proven digital platform and scalable cloud deployment, but its technical integration plan remains vague and lacks specific interface mappings.",
+          "evidence": "[PAGE 2] \"Proven digital platform and scalable cloud deployment. The integration approach remains high level and lacks interface mappings.\"",
+          "criterion_name": "Technical Capability",
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": -4.0,
+          "relative_percent": 55.55555555555556,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 2,
+          "score": 5.5,
+          "max_score": 10.0,
+          "justification": "The proposal includes an eighteen-week timeline with milestones and a senior team, but provides limited details on migration and risk mitigation activities.",
+          "evidence": "[PAGE 2] \"Eighteen-week plan with milestones and a senior team. Migration and risk activities have limited detail.\"",
+          "criterion_name": "Implementation Plan",
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -3.5,
+          "relative_percent": 61.111111111111114,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 3,
+          "score": 6.5,
+          "max_score": 10.0,
+          "justification": "Pricing structure is defined with implementation at INR 1.05 crore and annual support at INR 20 lakh, valid for 90 days, though taxes are excluded and major exclusions apply.",
+          "evidence": "[PAGE 2] \"Implementation price INR 1.05 crore plus INR 20 lakh annual support. Major exclusions are listed.\" and \"Taxes: Excluded and charged as applicable\"",
+          "criterion_name": "Commercial Value",
+          "weight": 20.0,
+          "benchmark": 8.5,
+          "gap": -2.0,
+          "relative_percent": 76.47058823529412,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 4,
+          "score": 6.0,
+          "max_score": 10.0,
+          "justification": "Core security features such as encryption, SSO, audit logs, backup, and vulnerability scans are described, but certification evidence is explicitly marked as partial.",
+          "evidence": "[PAGE 2] \"Encryption, SSO, audit logs, backup and vulnerability scans are described. Certification evidence is partial.\"",
+          "criterion_name": "Security & Compliance",
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -3.0,
+          "relative_percent": 66.66666666666666,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 5,
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "Demonstrates strong operational support and extensive relevant experience, featuring a 24x7 service desk, strong escalation process, ten similar projects, and four detailed references.",
+          "evidence": "[PAGE 2] \"24x7 service desk, strong escalation process, ten similar fictional projects and four detailed fictional references.\"",
+          "criterion_name": "Support & Experience",
+          "weight": 10.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_percent": 100.0,
+          "is_benchmark_leader": true
+        }
+      ],
+      "final_rank": 3
+    },
+    {
+      "supplier_name": "BrightPath Tech",
+      "submission_date": "2026-09-18",
+      "experience_rating": 5.0,
+      "document_pages": 2,
+      "evaluation": {
+        "supplier_name": "BrightPath Tech",
+        "criteria": [
+          {
+            "criterion_id": 1,
+            "score": 5.0,
+            "max_score": 10.0,
+            "justification": "The proposal offers a standard web platform with APIs and configurable workflows. However, scalability evidence is missing as no load-test target or detailed integration mapping is supplied, leading to a conservative score.",
+            "evidence": "[PAGE 2] Standard web platform with APIs and configurable workflows. Scalability is claimed, but no load-test target or detailed integration mapping is supplied."
+          },
+          {
+            "criterion_id": 2,
+            "score": 5.0,
+            "max_score": 10.0,
+            "justification": "A 12-week timeline covering discovery, configuration, testing, and launch is outlined. However, the plan carries schedule risk due to aggressive milestones and a small delivery team.",
+            "evidence": "[PAGE 2] Twelve-week plan covering discovery, configuration, testing and launch. The small delivery team and aggressive milestones create schedule risk."
+          },
+          {
+            "criterion_id": 3,
+            "score": 8.5,
+            "max_score": 10.0,
+            "justification": "Commercial terms are clear with a fixed price of INR 82 lakh including first-year support. Payment milestones and assumptions are itemised, proposal validity is 90 days, and taxes are explicitly excluded.",
+            "evidence": "[PAGE 2] Fixed price INR 82 lakh including first-year support. Assumptions and payment milestones are itemised. Cost item: Implementation Fixed price INR 82 lakh including first-year support. Taxes: Excluded and charged as applicable. Proposal validity: 90 days."
+          },
+          {
+            "criterion_id": 4,
+            "score": 3.0,
+            "max_score": 10.0,
+            "justification": "Basic controls such as HTTPS, role-based access, and backups are mentioned. However, crucial evidence regarding security certifications, privacy assessments, and audit retention is missing.",
+            "evidence": "[PAGE 2] HTTPS, role-based access and backups are mentioned. Certifications, privacy assessment and audit-retention evidence are not supplied."
+          },
+          {
+            "criterion_id": 5,
+            "score": 3.0,
+            "max_score": 10.0,
+            "justification": "The support model covers business-hours with optional weekend coverage. However, experience evidence is minimal with only one comparable fictional project cited and no references provided.",
+            "evidence": "[PAGE 2] Business-hours support with optional weekend coverage. One comparable fictional project and no references."
+          }
+        ],
+        "risks": [
+          "Schedule risk arising from aggressive 12-week milestones coupled with a small delivery team.",
+          "Technical risk due to missing load-test targets and detailed integration mappings.",
+          "Compliance risk due to lack of supplied security certifications, privacy assessments, and audit retention policies.",
+          "Supplier track record risk due to the absence of verifiable customer references and inclusion of only one fictional project."
+        ],
+        "overall_summary": "BrightPath Tech offers an attractive price point (INR 82 lakh fixed price) and a quick 12-week delivery schedule. However, the proposal suffers from significant gaps in technical scalability mapping, compliance and certification evidence, and customer references, alongside schedule risks driven by a small project team."
+      },
+      "warnings": [],
+      "absolute_score": 51.0,
+      "ppi": 57.78,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "score": 5.0,
+          "max_score": 10.0,
+          "justification": "The proposal offers a standard web platform with APIs and configurable workflows. However, scalability evidence is missing as no load-test target or detailed integration mapping is supplied, leading to a conservative score.",
+          "evidence": "[PAGE 2] Standard web platform with APIs and configurable workflows. Scalability is claimed, but no load-test target or detailed integration mapping is supplied.",
+          "criterion_name": "Technical Capability",
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": -4.0,
+          "relative_percent": 55.55555555555556,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 2,
+          "score": 5.0,
+          "max_score": 10.0,
+          "justification": "A 12-week timeline covering discovery, configuration, testing, and launch is outlined. However, the plan carries schedule risk due to aggressive milestones and a small delivery team.",
+          "evidence": "[PAGE 2] Twelve-week plan covering discovery, configuration, testing and launch. The small delivery team and aggressive milestones create schedule risk.",
+          "criterion_name": "Implementation Plan",
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -4.0,
+          "relative_percent": 55.55555555555556,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 3,
+          "score": 8.5,
+          "max_score": 10.0,
+          "justification": "Commercial terms are clear with a fixed price of INR 82 lakh including first-year support. Payment milestones and assumptions are itemised, proposal validity is 90 days, and taxes are explicitly excluded.",
+          "evidence": "[PAGE 2] Fixed price INR 82 lakh including first-year support. Assumptions and payment milestones are itemised. Cost item: Implementation Fixed price INR 82 lakh including first-year support. Taxes: Excluded and charged as applicable. Proposal validity: 90 days.",
+          "criterion_name": "Commercial Value",
+          "weight": 20.0,
+          "benchmark": 8.5,
+          "gap": 0.0,
+          "relative_percent": 100.0,
+          "is_benchmark_leader": true
+        },
+        {
+          "criterion_id": 4,
+          "score": 3.0,
+          "max_score": 10.0,
+          "justification": "Basic controls such as HTTPS, role-based access, and backups are mentioned. However, crucial evidence regarding security certifications, privacy assessments, and audit retention is missing.",
+          "evidence": "[PAGE 2] HTTPS, role-based access and backups are mentioned. Certifications, privacy assessment and audit-retention evidence are not supplied.",
+          "criterion_name": "Security & Compliance",
+          "weight": 20.0,
+          "benchmark": 9.0,
+          "gap": -6.0,
+          "relative_percent": 33.33333333333333,
+          "is_benchmark_leader": false
+        },
+        {
+          "criterion_id": 5,
+          "score": 3.0,
+          "max_score": 10.0,
+          "justification": "The support model covers business-hours with optional weekend coverage. However, experience evidence is minimal with only one comparable fictional project cited and no references provided.",
+          "evidence": "[PAGE 2] Business-hours support with optional weekend coverage. One comparable fictional project and no references.",
+          "criterion_name": "Support & Experience",
+          "weight": 10.0,
+          "benchmark": 9.0,
+          "gap": -6.0,
+          "relative_percent": 33.33333333333333,
+          "is_benchmark_leader": false
+        }
+      ],
+      "final_rank": 4
+    }
+  ]
+}
