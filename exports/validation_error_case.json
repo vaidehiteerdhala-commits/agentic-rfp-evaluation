@@ -1,0 +1,76 @@
+{
+  "input": {
+    "supplier_name": "Validation Test Supplier",
+    "criteria": [
+      {
+        "criterion_id": 1,
+        "score": 15,
+        "max_score": 99,
+        "justification": "test",
+        "evidence": "test"
+      },
+      {
+        "criterion_id": 1,
+        "score": 8,
+        "max_score": 10
+      },
+      {
+        "criterion_id": 99,
+        "score": 5,
+        "max_score": 10
+      }
+    ]
+  },
+  "normalized_output": {
+    "supplier_name": "Validation Test Supplier",
+    "criteria": [
+      {
+        "criterion_id": 1,
+        "score": 10.0,
+        "max_score": 10.0,
+        "justification": "test",
+        "evidence": "test"
+      },
+      {
+        "criterion_id": 2,
+        "score": 0.0,
+        "max_score": 10.0,
+        "justification": "No valid result returned.",
+        "evidence": "Not provided."
+      },
+      {
+        "criterion_id": 3,
+        "score": 0.0,
+        "max_score": 10.0,
+        "justification": "No valid result returned.",
+        "evidence": "Not provided."
+      },
+      {
+        "criterion_id": 4,
+        "score": 0.0,
+        "max_score": 10.0,
+        "justification": "No valid result returned.",
+        "evidence": "Not provided."
+      },
+      {
+        "criterion_id": 5,
+        "score": 0.0,
+        "max_score": 10.0,
+        "justification": "No valid result returned.",
+        "evidence": "Not provided."
+      }
+    ],
+    "risks": [],
+    "overall_summary": ""
+  },
+  "warnings": [
+    "Criterion 1 score 15.0 clipped to 10.0.",
+    "Criterion 1 max_score normalized to database value 10.0.",
+    "Duplicate criterion 1 was ignored after the first occurrence.",
+    "Unknown criterion 99 was ignored.",
+    "Missing criterion 2; defaulted to zero.",
+    "Missing criterion 3; defaulted to zero.",
+    "Missing criterion 4; defaulted to zero.",
+    "Missing criterion 5; defaulted to zero."
+  ]
+}
