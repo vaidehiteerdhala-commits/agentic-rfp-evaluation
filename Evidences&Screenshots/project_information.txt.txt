@@ -1,0 +1,58 @@
+Project Title:
+Agentic RFP Evaluation and Supplier Ranking
+ 
+Submitted By:
+Vydehi Theerdhala
+ 
+GitHub Repository URL:
+https://github.com/vaidehiteerdhala-commits/agentic-rfp-evaluation
+ 
+Streamlit Application URL:
+https://vydehi-agentic-rfp-evaluation.streamlit.app/
+ 
+Successful Gemini Model:
+gemini-3.6-flash
+
+=======================================================
+
+Supplier metadata for the demonstration:
+---------------------------------------
+Supplier 1
+Name: Apex Systems
+Submission date: 2026-09-20
+Experience rating: 8.0
+File: Apex_Systems.pdf
+
+Supplier 2
+Name: BrightPath Tech
+Submission date: 2026-09-18
+Experience rating: 5.0
+File: BrightPath_Tech.pdf
+
+Supplier 3
+Name: NexaWorks
+Submission date: 2026-09-19
+Experience rating: 8.5
+File: NexaWorks.pdf
+
+Supplier 4
+Name: Orbit Digital
+Submission date: 2026-09-17
+Experience rating: 9.5
+File: Orbit_Digital.pdf
+
+GitHub Repository URL:
+https://github.com/YOUR_USERNAME/agentic-rfp-evaluation
+
+Streamlit Application URL:
+https://vydehi-agentic-rfp-evaluation.streamlit.app/
+
+
+Colab Test Result:
+11 passed
+ 
+Live Run Status:
+COMPLETED
+ 
+Number of Suppliers:
+4
