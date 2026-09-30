@@ -18,7 +18,7 @@ with tab1:
  for i in range(int(count)):
   with st.expander(f"Supplier {i+1}",expanded=i==0):
    a,b,c=st.columns(3);name=a.text_input("Supplier name",key=f"name{i}");submitted=b.date_input("Submission date",date.today(),key=f"date{i}");experience=c.slider("Historical experience rating",0.0,10.0,5.0,0.5,key=f"exp{i}");pdf=st.file_uploader("Supplier proposal PDF",type=["pdf"],key=f"pdf{i}");entries.append({"supplier_name":name,"submission_date":submitted.isoformat(),"experience_rating":experience,"pdf":pdf})
- model=st.sidebar.text_input("Gemini model","gemini-2.5-flash");api_key=st.secrets.get("GEMINI_API_KEY","");st.sidebar.info("Store the API key only in Streamlit Secrets. Never commit it to GitHub.")
+ model=st.sidebar.text_input("Gemini model","gemini-3.8-flash");api_key=st.secrets.get("GEMINI_API_KEY","");st.sidebar.info("Store the API key only in Streamlit Secrets. Never commit it to GitHub.")
  if st.button("Evaluate all suppliers",type="primary"):
   errors=[];names=[]
   if not api_key:errors.append("GEMINI_API_KEY is not configured in Streamlit Secrets.")
